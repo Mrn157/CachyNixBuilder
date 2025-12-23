@@ -10,7 +10,7 @@
 
   # Change this configuration to your own
   boot = {
-    kernelPackages = pkgs.linuxPackages_cachyos;
+    kernelPackages = pkgs.linuxPackages_cachyos-gcc;
     # Add/Remove modules you need here:
     extraModulePackages = with config.boot.kernelPackages; [
       rtw88
