@@ -15,15 +15,7 @@
         lto-x86_64-v3 = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            ./kernels/lto-x86_64-v3/configuration.nix 
-            cachynix.nixosModules.default
-          ];
-          inherit specialArgs;
-        };
-        rc-x86_64 = lib.nixosSystem {
-          system = "x86_64-linux";
-          modules = [
-            ./kernels/rc-x86_64/configuration.nix 
+            ./configuration.nix 
             cachynix.nixosModules.default
           ];
           inherit specialArgs;
