@@ -33,6 +33,7 @@
           system = "x86_64-linux";
           modules = [
             ./kernels/rc-x86_64/configuration.nix
+            cachynix.nixosModules.default
           ];
         };
       };
