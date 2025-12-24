@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./hardware-configuration.nix
+    ../lto-x86_64-v3/hardware-configuration.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
