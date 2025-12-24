@@ -28,6 +28,12 @@
           ];
           inherit specialArgs;
         };
+        rc-x86_64 = lib.nixosSystem {
+          inherit specialArgs;
+          modules = [
+            ./kernels/rc-x86_64/configuration.nix
+          ];
+        };
       };
     };
 }
