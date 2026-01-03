@@ -20,14 +20,6 @@
           ];
           inherit specialArgs;
         };
-        gcc-x86_64 = lib.nixosSystem {
-          system = "x86_64-linux";
-          modules = [
-            ./kernels/gcc-x86_64/configuration.nix 
-            cachynix.nixosModules.default
-          ];
-          inherit specialArgs;
-        };
         rc-x86_64 = lib.nixosSystem {
           inherit specialArgs;
           system = "x86_64-linux";
