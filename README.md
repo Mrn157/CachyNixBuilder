@@ -8,7 +8,6 @@ https://github.com/Mrn157/CachyNix
 |--------|--------|--------| -------- |
 | [pkgs.linuxPackages_cachyos-lto](https://github.com/Mrn157/nix-dotfiles/blob/4304c7fd94f687825d2a3f13082cb68b81b3dec6/hosts/hp/configuration.nix#L14C2-L21C8) | ✔️ | 6.18.3 | x86_64-v3 |
 | pkgs.linuxPackages_cachyos-lto | ❌ | 6.18.3  | x86_64 |
-| pkgs.linuxPackages_cachyos | ❌ | 6.18.3 | x86_64 |
 | pkgs.linuxPackages_cachyos-gcc | ✔️ | 6.18.3 | x86_64 |
 | pkgs.linuxPackages_cachyos-server | ❌ | 6.18.3 | x86_64 |
 | pkgs.linuxPackages_cachyos-rc | ✔️ | 6.19-rc3 | x86_64 |
