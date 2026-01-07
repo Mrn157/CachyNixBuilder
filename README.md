@@ -1,5 +1,3 @@
-A test
-
 https://github.com/Mrn157/CachyNix
 
 ## Cache Status (extraModulePackages modules may not be cached):
