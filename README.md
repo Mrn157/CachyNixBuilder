@@ -10,7 +10,7 @@ https://github.com/Mrn157/CachyNix
 | pkgs.linuxPackages_cachyos-lto | ✔️ | 6.18.3  | x86_64 |
 | pkgs.linuxPackages_cachyos-gcc | ✔️ | 6.18.3 | x86_64 |
 | pkgs.linuxPackages_cachyos-server | ❌ | 6.18.3 | x86_64 |
-| pkgs.linuxPackages_cachyos-rc | ✔️ | 6.19-rc3 | x86_64 |
+| pkgs.linuxPackages_cachyos-rc | ✔️/⏳ | 6.19-rc4 | x86_64 |
 | pkgs.linuxPackages_cachyos-hardened | ❌ | 6.17.13 | x86_64 |
 | Others | ❓ | # |
 
