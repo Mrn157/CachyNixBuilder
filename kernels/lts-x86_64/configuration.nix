@@ -10,10 +10,11 @@
 
   # Change this configuration to your own
   boot = {
-    kernelPackages = pkgs.linuxPackages_cachyos-rc;
+    kernelPackages = pkgs.linuxPackages_cachyos-lts;
     # Add/Remove modules you need here:
     extraModulePackages = with config.boot.kernelPackages; [
       rtw88
+      nvidia_x11_vulkan_beta
     ];
     loader.systemd-boot.enable = true;
   };
