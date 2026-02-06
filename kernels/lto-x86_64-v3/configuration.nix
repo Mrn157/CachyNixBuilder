@@ -14,7 +14,6 @@
     # Add/Remove modules you need here:
     extraModulePackages = with config.boot.kernelPackages; [
       rtw88
-      nvidia_x11_vulkan_beta
     ];
     loader.systemd-boot.enable = true;
   };
