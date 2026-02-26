@@ -2,7 +2,6 @@ https://github.com/Mrn157/CachyNix
 
 ## Cache Status (extraModulePackages modules may not be cached):
 
-
 ✔️ = Cached/In Progress
 ❌ = Not Cached/Unknown
 
