@@ -35,6 +35,14 @@
             cachynix.nixosModules.default
           ];
         };
+        rc-x86_64-v3 = lib.nixosSystem {
+          inherit specialArgs;
+          system = "x86_64-linux";
+          modules = [
+            ./kernels/rc-x86_64-v3/configuration.nix
+            cachynix.nixosModules.default
+          ];
+        };
       };
     };
 }
